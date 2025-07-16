@@ -66,4 +66,25 @@ export const competitions = [
       },
     ],
   },
+  {
+    id: 3,
+    name: "COPA SUDAMERICANA - PLAYOFF",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/pt/thumb/e/e4/Conmebol_Sudamericana_logo.png/330px-Conmebol_Sudamericana_logo.png",
+    matches: [
+      {
+        id: 3,
+        homeTeam: {
+          name: "Bolivar",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Emblem_bolivar.png/250px-Emblem_bolivar.png",
+        },
+        awayTeam: {
+          name: "Palestino",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Escudo_Oficial_Palestino.png",
+        },
+        streams: [
+          { id: 3, url: "https://a105.azplay12.me/hls/streama238485/index.m3u8?cst=c76d49f2aeec2b869553b29740f43c08", label: "Stream 1" },
+        ],
+      },
+    ],
+  },
 ];
