@@ -61,7 +61,28 @@ export const competitions = [
           logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/54/Larne_FC_crest.svg/1200px-Larne_FC_crest.svg.png",
         },
         streams: [
-          { id: 3, url: "https://mae1.dbcast.live/98zfMDgRbwR2CVFxEM-EXw/1752712477/38352e3230322e3131332e3637/ff602/playlist.m3u8", label: "Stream 1" },
+          { id: 3, url: "", label: "Stream 1" },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "BRASIL - SERIE A",
+    imageUrl: "https://static.wikia.nocookie.net/logopedia/images/0/06/Brasileir%C3%A3o_Betano.svg/revision/latest/scale-to-width-down/171?cb=20240421160034",
+    matches: [
+      {
+        id: 5,
+        homeTeam: {
+          name: "Palmeiras",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/800px-Palmeiras_logo.svg.png",
+        },
+        awayTeam: {
+          name: "Mirassol",
+          logo: "https://upload.wikimedia.org/wikipedia/commons/5/5b/Mirassol_FC_logo.png",
+        },
+        streams: [
+          { id: 5, url: "https://a106.azplay12.me/hls/streama237516/index.m3u8?cst=b1016a4426968c1bd2078a21b38136a8", label: "Stream 1" },
         ],
       },
     ],
